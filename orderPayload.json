@@ -1,0 +1,43 @@
+{
+  "user_id": 1,
+  "phases": [1, 2],
+  "addon": 4,
+  "delivery": "urgent",
+  "platforms": [1, 2],
+  "features": [2, 3],
+  "category_id": 3,
+  "template_id": 5,
+  "custom_project": {
+    "name": "test",
+    "category_id": 5,
+    "templates": [5, 6]
+  },
+  "total_amount": 123,
+  "total_duration": 12,
+  "duration": 6,
+  "duration_type": "days",
+  "billing": {
+    "type": "individual",
+    "first_name": "first",
+    "last_name": "last",
+    "phone": "12234434",
+    "email": "azeem@gmail.com",
+    "partment_number": 121,
+    "address": "abc",
+    "city": "Lahore",
+    "country": "Pakistan",
+    "state": "Punjab",
+    "zipcode": "54000"
+  },
+  "instllment_duration_type": "monthly",
+  "total_installments": 5,
+  "description": "test description",
+  "note": "this is test note",
+  "payment_via": "card",
+  "payment_method": {
+    "card": 122324,
+    "name": "test",
+    "expiry_data": "10/26",
+    "cvv": "123"
+  }
+}

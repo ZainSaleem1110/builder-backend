@@ -1,0 +1,6 @@
+Templates = 1
+Features = 2
+Select add-on, delivery type, platforms, phases = 3
+Build card detail = 4
+Instalments = 5
+Billing detail = 6

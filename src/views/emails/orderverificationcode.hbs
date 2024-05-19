@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verification Code</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+    body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+
+    .mainHeading {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 36px;
+      color: #393434;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin: 0px;
+      padding-top: 60px;
+    }
+
+    .EmailerName {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #393434;
+    }
+
+    .EmailerText {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #717171;
+    }
+
+    .verificationLink {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #393434;
+    }
+
+    .verificationContent {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #717171;
+    }
+
+    .Regards {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #393434;
+    }
+
+    .BuliderAI {
+      font-family: "Work Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #717171;
+    }
+
+    .w-full {
+      width: 100%;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: center;
+      padding-top: 80px;
+    }
+
+    .description {
+      width: 60%;
+    }
+
+    .nextLine {
+      display: block;
+      padding: 20px 0px;
+    }
+
+    .paddingTop-80 {
+      padding-top: 80px;
+    }
+
+    @media (width>=768px) and (width<=1199px) {
+      .description {
+        width: 80%;
+      }
+      .mainHeading.fontSize-tab {
+        font-size: 30px;
+      }
+      .paddingTop-80 {
+        padding-top: 50px;
+      }
+    }
+
+    @media (width>=481px) and (width<=767px) {
+      .description {
+        width: 80%;
+      }
+      .mainHeading.fontSize-tab {
+        font-size: 20px;
+      }
+      .paddingTop-80 {
+        padding-top: 30px;
+      }
+    }
+
+    @media (width>=320px) and (width<=480px) {
+      .description {
+        width: 90%;
+      }
+      .mainHeading {
+        font-size: 30px;
+      }
+      .mainHeading.fontSize-tab {
+        font-size: 20px;
+      }
+      .paddingTop-80 {
+        padding-top: 20px;
+      }
+    }
+  </style>
+  <body>
+    <h1 class="mainHeading">Verification Code</h1>
+    <div class="w-full flex paddingTop-80">
+      <div class="description">
+        <h3 class="EmailerName">Dear {{user}},</h3>
+        <p class="EmailerText">
+          Welcome to the Builder.ai community! We're thrilled to have you on
+          board. To get started and unleash the full potential of our platform,
+          please use below verification code:
+        </p>
+        <h3 class="verificationLink">{{code}}</h3>
+        <p class="verificationContent">
+          If you didn't request this, simply ignore this email, Please reach out if you need further
+          assistance. We're committed to ensuring a smooth experience for you.
+
+          Thank you for choosing Builder.ai. We look forward to being part of
+          your journey in creating extraordinary applications.
+        </p>
+        <h3 class="Regards">Best Regards,</h3>
+        <p class="BuliderAI">The builder.ai Team</p>
+      </div>
+    </div>
+  </body>
+</html>
